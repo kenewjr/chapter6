@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chapter6">
         <activity
+            android:name=".receiver.MainReceiver"
+            android:exported="true" />
+        <activity
+            android:name=".services.MainServices"
+            android:exported="true" />
+        <activity
             android:name=".kedua.MainCoroutines"
             android:exported="true" />
         <activity
@@ -27,6 +33,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service android:name=".services.ServicePlayer" />
     </application>
 
 </manifest>
