@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chapter6">
         <activity
+            android:name=".kedua.MainCoroutines"
+            android:exported="true" />
+        <activity
+            android:name=".kedua.MainAsyncTask"
+            android:exported="true" />
+        <activity
             android:name=".pertama.icip1"
             android:exported="true" />
         <activity
